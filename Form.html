@@ -1,0 +1,64 @@
+<form>
+	First name:
+	<input type="text" name="firstname" />
+	<br />
+	Last name:
+	<input type="text" name="lastname" />
+</form>
+
+<form>
+	Jenis Kelamin :
+	<br />
+	<input type="radio" name="JenisKel" value="pria" /> Pria
+	<br />
+	<input type="radio" name="JenisKel" value="wanita" /> Wanita
+</form>
+
+<form>
+	kendaraan yang dimiliki:
+	<br />
+	sepeda:
+	<input type="checkbox" name="vehicle" value="sepeda" />
+	<br />
+	motor:
+	<input type="checkbox" name="vehicle" value="motor" />
+	<br />
+	mobil:
+	<input type="checkbox" name="vehicle" value="mobil" />
+	<br />
+	pesawat terbang:
+	<input type="checkbox" name="vehicle" value="pesawat" />
+
+</form>
+
+<select name="kendaraan">
+	<option value="" selected="selected">--Pilih Kendaraan--</option>
+	<option value="sepeda">sepeda</option>
+	<option value="motor">motor</option>
+	<option value="mobil">mobil</option>
+	<option value="pesawat">pesawat terbang</option>
+</select>
+
+<select name="kendaraan" size="4" multiple="multiple"/>
+
+<form>
+	tuliskan komentar anda:
+	<br />
+	<textarea rows="3" cols="50" name="komentar">
+	sekarang saya sedang mempelajari topik HTML Lanjut pada kuliah pemrograman Web.
+	</textarea>
+</form>
+
+<input type="file" name="gambar" />
+
+<form name="input" action="proses.php" method="get">
+	username:
+	<input type="text" name="username" />
+	<br />
+	password:
+	<input type="text" name="password" />
+	<br />
+	<input type="submit" value="Submit" />	
+<input type="submit" value="Simpan" />
+<input type="reset" value="reset" />
+</form>
